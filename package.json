@@ -75,7 +75,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "pre-push": "npm run typecheck && npm run test:push"
+      "pre-push": "npm run typecheck && npm run test"
     }
   },
   "devDependencies": {
